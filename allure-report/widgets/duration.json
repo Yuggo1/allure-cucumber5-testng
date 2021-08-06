@@ -1,0 +1,41 @@
+[ {
+  "uid" : "c312779ebefee047",
+  "name" : "Get first Mars photos",
+  "time" : {
+    "start" : 1628290414838,
+    "stop" : 1628290418157,
+    "duration" : 3319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60818b5426e79420",
+  "name" : "Get first Mars photos",
+  "time" : {
+    "start" : 1628290418202,
+    "stop" : 1628290420047,
+    "duration" : 1845
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1e751e783b34a5d",
+  "name" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.",
+  "time" : {
+    "start" : 1628290420063,
+    "stop" : 1628290423486,
+    "duration" : 3423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bd4c1b83f107754",
+  "name" : "Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.",
+  "time" : {
+    "start" : 1628290423499,
+    "stop" : 1628290425177,
+    "duration" : 1678
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

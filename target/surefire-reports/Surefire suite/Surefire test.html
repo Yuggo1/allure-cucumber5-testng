@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/4/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 06 19:50:43 BRT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>6 seconds (6338 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='nasa.api.steps.CucumberTest.runScenario()'><b>runScenario</b><br>Test class: nasa.api.steps.CucumberTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get first Mars photos", "Nasa Rover Mars Photos Api"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;Object.getClass()&quot; because &quot;original&quot; is null
+	at java.base/java.util.Arrays.copyOf(Arrays.java:3480)
+	at nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)
+	at ✽.I request the 10 first photos made by &quot;curiosity&quot; on &quot;1000&quot;(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1169324755", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1169324755'><pre>java.lang.NullPointerException: Cannot invoke &quot;Object.getClass()&quot; because &quot;original&quot; is null
+	at java.base/java.util.Arrays.copyOf(Arrays.java:3480)
+	at nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)
+	at ✽.I request the 10 first photos made by &quot;curiosity&quot; on &quot;1000&quot;(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:4)
+</pre></div></td>
+<td>3</td>
+<td>nasa.api.steps.CucumberTest@63355449</td></tr>
+<tr>
+<td title='nasa.api.steps.CucumberTest.runScenario()'><b>runScenario</b><br>Test class: nasa.api.steps.CucumberTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get first Mars photos", "Nasa Rover Mars Photos Api"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;Object.getClass()&quot; because &quot;original&quot; is null
+	at java.base/java.util.Arrays.copyOf(Arrays.java:3480)
+	at nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)
+	at ✽.I request the 10 first photos made by &quot;curiosity&quot; on &quot;2015-05-30&quot;(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2066569446", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2066569446'><pre>java.lang.NullPointerException: Cannot invoke &quot;Object.getClass()&quot; because &quot;original&quot; is null
+	at java.base/java.util.Arrays.copyOf(Arrays.java:3480)
+	at nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)
+	at ✽.I request the 10 first photos made by &quot;curiosity&quot; on &quot;2015-05-30&quot;(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:4)
+</pre></div></td>
+<td>0</td>
+<td>nasa.api.steps.CucumberTest@63355449</td></tr>
+<tr>
+<td title='nasa.api.steps.CucumberTest.runScenario()'><b>runScenario</b><br>Test class: nasa.api.steps.CucumberTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Retrieve and compare the first 10 Mars photos made by "Curiosity" on 1000 sol and on Earth date equal to 1000 Martian sol.", "Nasa Rover Mars Photos Api"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;Object.getClass()&quot; because &quot;original&quot; is null
+	at java.base/java.util.Arrays.copyOf(Arrays.java:3480)
+	at nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)
+	at ✽.I request the 10 first photos made by &quot;curiosity&quot; on &quot;1000&quot;(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:12)
+</pre></div><a href='#' onClick='toggleBox("stack-trace939303753", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace939303753'><pre>java.lang.NullPointerException: Cannot invoke &quot;Object.getClass()&quot; because &quot;original&quot; is null
+	at java.base/java.util.Arrays.copyOf(Arrays.java:3480)
+	at nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)
+	at ✽.I request the 10 first photos made by &quot;curiosity&quot; on &quot;1000&quot;(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:12)
+</pre></div></td>
+<td>0</td>
+<td>nasa.api.steps.CucumberTest@63355449</td></tr>
+<tr>
+<td title='nasa.api.steps.CucumberTest.runScenario()'><b>runScenario</b><br>Test class: nasa.api.steps.CucumberTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the amounts of pictures that each "Curiosity" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.", "Nasa Rover Mars Photos Api"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot read the array length because &quot;array&quot; is null
+	at java.base/java.util.Arrays.stream(Arrays.java:5427)
+	at nasa.api.steps.RestSteps.cameraFiredLessThan10times(RestSteps.java:79)
+	at ✽.No camera fired more than 10 times than the others(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:18)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1696394747", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1696394747'><pre>java.lang.NullPointerException: Cannot read the array length because &quot;array&quot; is null
+	at java.base/java.util.Arrays.stream(Arrays.java:5427)
+	at nasa.api.steps.RestSteps.cameraFiredLessThan10times(RestSteps.java:79)
+	at ✽.No camera fired more than 10 times than the others(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:18)
+</pre></div></td>
+<td>0</td>
+<td>nasa.api.steps.CucumberTest@63355449</td></tr>
+</table><p>
+</body>
+</html>

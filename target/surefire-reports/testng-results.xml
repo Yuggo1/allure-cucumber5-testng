@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-06T19:50:43 BRT" name="Surefire suite" finished-at="2021-08-06T19:50:49 BRT" duration-ms="6338">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:nasa.api.steps.CucumberTest@63355449]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-08-06T19:50:43 BRT" name="Surefire test" finished-at="2021-08-06T19:50:49 BRT" duration-ms="6338">
+      <class name="nasa.api.steps.CucumberTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:nasa.api.steps.CucumberTest@63355449]" started-at="2021-08-06T19:50:43 BRT" name="setUpClass" finished-at="2021-08-06T19:50:43 BRT" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:nasa.api.steps.CucumberTest@63355449]" started-at="2021-08-06T19:50:43 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-06T19:50:47 BRT" duration-ms="3197" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get first Mars photos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nasa Rover Mars Photos Api"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "Object.getClass()" because "original" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "original" is null
+at java.base/java.util.Arrays.copyOf(Arrays.java:3480)
+at nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)
+at ✽.I request the 10 first photos made by "curiosity" on "1000"(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:nasa.api.steps.CucumberTest@63355449]" started-at="2021-08-06T19:50:47 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-06T19:50:47 BRT" duration-ms="906" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get first Mars photos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nasa Rover Mars Photos Api"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "Object.getClass()" because "original" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "original" is null
+at java.base/java.util.Arrays.copyOf(Arrays.java:3480)
+at nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)
+at ✽.I request the 10 first photos made by "curiosity" on "2015-05-30"(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:nasa.api.steps.CucumberTest@63355449]" started-at="2021-08-06T19:50:47 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-06T19:50:48 BRT" duration-ms="937" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Retrieve and compare the first 10 Mars photos made by "Curiosity" on 1000 sol and on Earth date equal to 1000 Martian sol."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nasa Rover Mars Photos Api"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "Object.getClass()" because "original" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "original" is null
+at java.base/java.util.Arrays.copyOf(Arrays.java:3480)
+at nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)
+at ✽.I request the 10 first photos made by "curiosity" on "1000"(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:nasa.api.steps.CucumberTest@63355449]" started-at="2021-08-06T19:50:48 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-06T19:50:49 BRT" duration-ms="967" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the amounts of pictures that each "Curiosity" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nasa Rover Mars Photos Api"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot read the array length because "array" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot read the array length because "array" is null
+at java.base/java.util.Arrays.stream(Arrays.java:5427)
+at nasa.api.steps.RestSteps.cameraFiredLessThan10times(RestSteps.java:79)
+at ✽.No camera fired more than 10 times than the others(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:18)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:nasa.api.steps.CucumberTest@63355449]" started-at="2021-08-06T19:50:49 BRT" name="tearDownClass" finished-at="2021-08-06T19:50:49 BRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- nasa.api.steps.CucumberTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

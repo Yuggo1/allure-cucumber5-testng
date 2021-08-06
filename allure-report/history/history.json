@@ -1,0 +1,79 @@
+{
+  "efca8c70285783a58571f070639e8bdc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60818b5426e79420",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628290418202,
+        "stop" : 1628290420047,
+        "duration" : 1845
+      }
+    } ]
+  },
+  "8bfb4905f33d804c0d31e003cac109e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1e751e783b34a5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628290420063,
+        "stop" : 1628290423486,
+        "duration" : 3423
+      }
+    } ]
+  },
+  "38887bc9b1589266091d02f02a751eb6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4bd4c1b83f107754",
+      "status" : "failed",
+      "statusDetails" : "\r\nThe camera MAST fired more than ten times than RHAZ\r\nThe camera MAST fired more than ten times than NAVCAM\r\nThe camera MAST fired more than ten times than FHAZ\r\nThe camera MAST fired more than ten times than CHEMCAM",
+      "time" : {
+        "start" : 1628290423499,
+        "stop" : 1628290425177,
+        "duration" : 1678
+      }
+    } ]
+  },
+  "52cdd473ef38a8a37b087f4fe912da98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c312779ebefee047",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628290414838,
+        "stop" : 1628290418157,
+        "duration" : 3319
+      }
+    } ]
+  }
+}

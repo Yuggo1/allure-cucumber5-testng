@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Nasa Rover Mars Photos Api",
+    "children" : [ {
+      "name" : "Get first Mars photos",
+      "uid" : "c312779ebefee047",
+      "parentUid" : "1499e0e80118b9de791f54e5f3194a9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628290414838,
+        "stop" : 1628290418157,
+        "duration" : 3319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "\"1000\"", "10", "\"curiosity\"" ]
+    }, {
+      "name" : "Get first Mars photos",
+      "uid" : "60818b5426e79420",
+      "parentUid" : "1499e0e80118b9de791f54e5f3194a9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628290418202,
+        "stop" : 1628290420047,
+        "duration" : 1845
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "\"2015-05-30\"", "10", "\"curiosity\"" ]
+    }, {
+      "name" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.",
+      "uid" : "e1e751e783b34a5d",
+      "parentUid" : "1499e0e80118b9de791f54e5f3194a9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628290420063,
+        "stop" : 1628290423486,
+        "duration" : 3423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.",
+      "uid" : "4bd4c1b83f107754",
+      "parentUid" : "1499e0e80118b9de791f54e5f3194a9a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628290423499,
+        "stop" : 1628290425177,
+        "duration" : 1678
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1499e0e80118b9de791f54e5f3194a9a"
+  } ]
+}

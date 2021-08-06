@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: nasa.api.steps.CucumberTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 6.623 s <<< FAILURE! - in nasa.api.steps.CucumberTest
+runScenario(nasa.api.steps.CucumberTest)  Time elapsed: 3.236 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "original" is null
+
+runScenario(nasa.api.steps.CucumberTest)  Time elapsed: 0.945 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "original" is null
+
+runScenario(nasa.api.steps.CucumberTest)  Time elapsed: 0.94 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "original" is null
+
+runScenario(nasa.api.steps.CucumberTest)  Time elapsed: 0.965 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot read the array length because "array" is null
+

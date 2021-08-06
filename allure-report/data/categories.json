@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "\r\nThe camera MAST fired more than ten times than RHAZ\r\nThe camera MAST fired more than ten times than NAVCAM\r\nThe camera MAST fired more than ten times than FHAZ\r\nThe camera MAST fired more than ten times than CHEMCAM",
+      "children" : [ {
+        "name" : "Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.",
+        "uid" : "4bd4c1b83f107754",
+        "parentUid" : "1d2a56c224dc50424bad2d8bc1309fd7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628290423499,
+          "stop" : 1628290425177,
+          "duration" : 1678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d2a56c224dc50424bad2d8bc1309fd7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
