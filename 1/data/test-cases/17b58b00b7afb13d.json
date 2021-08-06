@@ -1,0 +1,130 @@
+{
+  "uid" : "17b58b00b7afb13d",
+  "name" : "Get first Mars photos",
+  "fullName" : "Nasa Rover Mars Photos Api: Get first Mars photos",
+  "historyId" : "efca8c70285783a58571f070639e8bdc",
+  "time" : {
+    "start" : 1628290247022,
+    "stop" : 1628290247911,
+    "duration" : 889
+  },
+  "status" : "broken",
+  "statusMessage" : "Cannot invoke \"Object.getClass()\" because \"original\" is null",
+  "statusTrace" : "java.lang.NullPointerException: Cannot invoke \"Object.getClass()\" because \"original\" is null\r\n\tat java.base/java.util.Arrays.copyOf(Arrays.java:3480)\r\n\tat nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)\r\n\tat ✽.I request the 10 first photos made by \"curiosity\" on \"2015-05-30\"(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:4)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "core.Setup.contextSetup()",
+    "time" : {
+      "start" : 1628290247022,
+      "stop" : 1628290247022,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot invoke \"Object.getClass()\" because \"original\" is null",
+    "statusTrace" : "java.lang.NullPointerException: Cannot invoke \"Object.getClass()\" because \"original\" is null\r\n\tat java.base/java.util.Arrays.copyOf(Arrays.java:3480)\r\n\tat nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)\r\n\tat ✽.I request the 10 first photos made by \"curiosity\" on \"2015-05-30\"(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:4)\r\n",
+    "steps" : [ {
+      "name" : "When  I request the 10 first photos made by \"curiosity\" on \"2015-05-30\"",
+      "time" : {
+        "start" : 1628290247023,
+        "stop" : 1628290247911,
+        "duration" : 888
+      },
+      "status" : "broken",
+      "statusMessage" : "Cannot invoke \"Object.getClass()\" because \"original\" is null",
+      "statusTrace" : "java.lang.NullPointerException: Cannot invoke \"Object.getClass()\" because \"original\" is null\r\n\tat java.base/java.util.Arrays.copyOf(Arrays.java:3480)\r\n\tat nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)\r\n\tat ✽.I request the 10 first photos made by \"curiosity\" on \"2015-05-30\"(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:4)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should get the 10 first photos made by \"curiosity\" on \"2015-05-30\"",
+      "time" : {
+        "start" : 1628290247911,
+        "stop" : 1628290247911,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-1CLD85NQ"
+  }, {
+    "name" : "thread",
+    "value" : "94656@LAPTOP-1CLD85NQ.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "story",
+    "value" : "Get first Mars photos"
+  }, {
+    "name" : "suite",
+    "value" : "Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "testClass",
+    "value" : "Get first Mars photos"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.nasa-api_feature.Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "date",
+    "value" : "\"2015-05-30\""
+  }, {
+    "name" : "numOfPics",
+    "value" : "10"
+  }, {
+    "name" : "rover",
+    "value" : "\"curiosity\""
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17b58b00b7afb13d.json",
+  "parameterValues" : [ "\"2015-05-30\"", "10", "\"curiosity\"" ]
+}

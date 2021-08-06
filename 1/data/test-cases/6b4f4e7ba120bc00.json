@@ -1,0 +1,136 @@
+{
+  "uid" : "6b4f4e7ba120bc00",
+  "name" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.",
+  "fullName" : "Nasa Rover Mars Photos Api: Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.",
+  "historyId" : "8bfb4905f33d804c0d31e003cac109e6",
+  "time" : {
+    "start" : 1628290247924,
+    "stop" : 1628290248850,
+    "duration" : 926
+  },
+  "status" : "broken",
+  "statusMessage" : "Cannot invoke \"Object.getClass()\" because \"original\" is null",
+  "statusTrace" : "java.lang.NullPointerException: Cannot invoke \"Object.getClass()\" because \"original\" is null\r\n\tat java.base/java.util.Arrays.copyOf(Arrays.java:3480)\r\n\tat nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)\r\n\tat ✽.I request the 10 first photos made by \"curiosity\" on \"1000\"(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:12)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "core.Setup.contextSetup()",
+    "time" : {
+      "start" : 1628290247924,
+      "stop" : 1628290247925,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot invoke \"Object.getClass()\" because \"original\" is null",
+    "statusTrace" : "java.lang.NullPointerException: Cannot invoke \"Object.getClass()\" because \"original\" is null\r\n\tat java.base/java.util.Arrays.copyOf(Arrays.java:3480)\r\n\tat nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)\r\n\tat ✽.I request the 10 first photos made by \"curiosity\" on \"1000\"(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:12)\r\n",
+    "steps" : [ {
+      "name" : "When  I request the 10 first photos made by \"curiosity\" on \"1000\"",
+      "time" : {
+        "start" : 1628290247925,
+        "stop" : 1628290248848,
+        "duration" : 923
+      },
+      "status" : "broken",
+      "statusMessage" : "Cannot invoke \"Object.getClass()\" because \"original\" is null",
+      "statusTrace" : "java.lang.NullPointerException: Cannot invoke \"Object.getClass()\" because \"original\" is null\r\n\tat java.base/java.util.Arrays.copyOf(Arrays.java:3480)\r\n\tat nasa.api.steps.RestSteps.getPhotosByDate(RestSteps.java:47)\r\n\tat ✽.I request the 10 first photos made by \"curiosity\" on \"1000\"(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:12)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And  I request the 10 first photos made by \"curiosity\" on \"2015-05-30\"",
+      "time" : {
+        "start" : 1628290248849,
+        "stop" : 1628290248849,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  The responses should be equals",
+      "time" : {
+        "start" : 1628290248849,
+        "stop" : 1628290248849,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-1CLD85NQ"
+  }, {
+    "name" : "thread",
+    "value" : "94656@LAPTOP-1CLD85NQ.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "story",
+    "value" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol."
+  }, {
+    "name" : "suite",
+    "value" : "Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "testClass",
+    "value" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol."
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.nasa-api_feature.Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b4f4e7ba120bc00.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Nasa Rover Mars Photos Api","Get first Mars photos","0","0","2","0","0"
+"","Nasa Rover Mars Photos Api","Validate that the amounts of pictures that each ""Curiosity"" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.","1","0","0","0","0"
+"","Nasa Rover Mars Photos Api","Retrieve and compare the first 10 Mars photos made by ""Curiosity"" on 1000 sol and on Earth date equal to 1000 Martian sol.","0","0","1","0","0"

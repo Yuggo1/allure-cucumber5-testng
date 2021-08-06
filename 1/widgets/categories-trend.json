@@ -1,3 +1,10 @@
 [ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://Yuggo1.github.io/allure-cucumber5-testng/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
   "data" : { }
 } ]

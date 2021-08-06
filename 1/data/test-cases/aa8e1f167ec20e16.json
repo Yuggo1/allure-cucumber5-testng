@@ -1,0 +1,121 @@
+{
+  "uid" : "aa8e1f167ec20e16",
+  "name" : "Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.",
+  "fullName" : "Nasa Rover Mars Photos Api: Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.",
+  "historyId" : "38887bc9b1589266091d02f02a751eb6",
+  "time" : {
+    "start" : 1628290248858,
+    "stop" : 1628290249811,
+    "duration" : 953
+  },
+  "status" : "broken",
+  "statusMessage" : "Cannot read the array length because \"array\" is null",
+  "statusTrace" : "java.lang.NullPointerException: Cannot read the array length because \"array\" is null\r\n\tat java.base/java.util.Arrays.stream(Arrays.java:5427)\r\n\tat nasa.api.steps.RestSteps.cameraFiredLessThan10times(RestSteps.java:79)\r\n\tat ✽.No camera fired more than 10 times than the others(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:18)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "core.Setup.contextSetup()",
+    "time" : {
+      "start" : 1628290248858,
+      "stop" : 1628290248859,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read the array length because \"array\" is null",
+    "statusTrace" : "java.lang.NullPointerException: Cannot read the array length because \"array\" is null\r\n\tat java.base/java.util.Arrays.stream(Arrays.java:5427)\r\n\tat nasa.api.steps.RestSteps.cameraFiredLessThan10times(RestSteps.java:79)\r\n\tat ✽.No camera fired more than 10 times than the others(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:18)\r\n",
+    "steps" : [ {
+      "name" : "When  I request all photos made by \"curiosity\" on 1000 Mars sol",
+      "time" : {
+        "start" : 1628290248859,
+        "stop" : 1628290249810,
+        "duration" : 951
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  No camera fired more than 10 times than the others",
+      "time" : {
+        "start" : 1628290249810,
+        "stop" : 1628290249811,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "statusMessage" : "Cannot read the array length because \"array\" is null",
+      "statusTrace" : "java.lang.NullPointerException: Cannot read the array length because \"array\" is null\r\n\tat java.base/java.util.Arrays.stream(Arrays.java:5427)\r\n\tat nasa.api.steps.RestSteps.cameraFiredLessThan10times(RestSteps.java:79)\r\n\tat ✽.No camera fired more than 10 times than the others(file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature:18)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-1CLD85NQ"
+  }, {
+    "name" : "thread",
+    "value" : "94656@LAPTOP-1CLD85NQ.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "story",
+    "value" : "Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date."
+  }, {
+    "name" : "suite",
+    "value" : "Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date."
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.nasa-api_feature.Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa8e1f167ec20e16.json",
+  "parameterValues" : [ ]
+}

@@ -1,5 +1,73 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Nasa Rover Mars Photos Api",
+    "children" : [ {
+      "name" : "Get first Mars photos",
+      "children" : [ {
+        "name" : "Get first Mars photos",
+        "uid" : "aab2eb83adfc09e5",
+        "parentUid" : "a7ab82d601317f23d5b3473a84cd0028",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290744079,
+          "stop" : 1628290747502,
+          "duration" : 3423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"1000\"", "10", "\"curiosity\"" ]
+      }, {
+        "name" : "Get first Mars photos",
+        "uid" : "33e9353c86c1786",
+        "parentUid" : "a7ab82d601317f23d5b3473a84cd0028",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290747538,
+          "stop" : 1628290749317,
+          "duration" : 1779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"2015-05-30\"", "10", "\"curiosity\"" ]
+      } ],
+      "uid" : "a7ab82d601317f23d5b3473a84cd0028"
+    }, {
+      "name" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.",
+      "children" : [ {
+        "name" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.",
+        "uid" : "3b6c6465c9adeeb7",
+        "parentUid" : "8d4ee2379e8f79de6be08008f7428ec3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290749328,
+          "stop" : 1628290752715,
+          "duration" : 3387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d4ee2379e8f79de6be08008f7428ec3"
+    }, {
+      "name" : "Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.",
+      "children" : [ {
+        "name" : "Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.",
+        "uid" : "10661797b49fcc9b",
+        "parentUid" : "77b761d645d1ef8b614d658c6017147c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628290752726,
+          "stop" : 1628290754370,
+          "duration" : 1644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77b761d645d1ef8b614d658c6017147c"
+    } ],
+    "uid" : "8054b78b182a2d6b58acf4f3c0bacf73"
+  } ],
   "name" : "behaviors"
 }

@@ -1,0 +1,130 @@
+{
+  "uid" : "c8673b74c018bf14",
+  "name" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.",
+  "fullName" : "Nasa Rover Mars Photos Api: Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.",
+  "historyId" : "8bfb4905f33d804c0d31e003cac109e6",
+  "time" : {
+    "start" : 1628290420063,
+    "stop" : 1628290423486,
+    "duration" : 3423
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "core.Setup.contextSetup()",
+    "time" : {
+      "start" : 1628290420063,
+      "stop" : 1628290420063,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When  I request the 10 first photos made by \"curiosity\" on \"1000\"",
+      "time" : {
+        "start" : 1628290420063,
+        "stop" : 1628290421822,
+        "duration" : 1759
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I request the 10 first photos made by \"curiosity\" on \"2015-05-30\"",
+      "time" : {
+        "start" : 1628290421823,
+        "stop" : 1628290423485,
+        "duration" : 1662
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  The responses should be equals",
+      "time" : {
+        "start" : 1628290423486,
+        "stop" : 1628290423486,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-1CLD85NQ"
+  }, {
+    "name" : "thread",
+    "value" : "118168@LAPTOP-1CLD85NQ.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "story",
+    "value" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol."
+  }, {
+    "name" : "suite",
+    "value" : "Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "testClass",
+    "value" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol."
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.nasa-api_feature.Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8673b74c018bf14.json",
+  "parameterValues" : [ ]
+}

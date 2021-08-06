@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://Yuggo1.github.io/allure-cucumber5-testng/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 3,
+    "unknown" : 0,
+    "total" : 4
+  }
+}, {
   "data" : {
     "failed" : 0,
     "broken" : 0,

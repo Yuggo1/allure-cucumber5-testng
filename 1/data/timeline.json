@@ -1,5 +1,289 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "LAPTOP-1CLD85NQ",
+    "children" : [ {
+      "name" : "94656@LAPTOP-1CLD85NQ.main(1)",
+      "children" : [ {
+        "name" : "Get first Mars photos",
+        "uid" : "17b58b00b7afb13d",
+        "parentUid" : "d85a9bf755a4637853f449934972eab6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628290247022,
+          "stop" : 1628290247911,
+          "duration" : 889
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"2015-05-30\"", "10", "\"curiosity\"" ]
+      }, {
+        "name" : "Get first Mars photos",
+        "uid" : "50bae10fe83c807d",
+        "parentUid" : "d85a9bf755a4637853f449934972eab6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628290244656,
+          "stop" : 1628290246955,
+          "duration" : 2299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"1000\"", "10", "\"curiosity\"" ]
+      }, {
+        "name" : "Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.",
+        "uid" : "aa8e1f167ec20e16",
+        "parentUid" : "d85a9bf755a4637853f449934972eab6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628290248858,
+          "stop" : 1628290249811,
+          "duration" : 953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.",
+        "uid" : "6b4f4e7ba120bc00",
+        "parentUid" : "d85a9bf755a4637853f449934972eab6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628290247924,
+          "stop" : 1628290248850,
+          "duration" : 926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d85a9bf755a4637853f449934972eab6"
+    }, {
+      "name" : "119496@LAPTOP-1CLD85NQ.main(1)",
+      "children" : [ {
+        "name" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.",
+        "uid" : "3b6c6465c9adeeb7",
+        "parentUid" : "17aab2774fc80e17b7fc43e794b47ec3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290749328,
+          "stop" : 1628290752715,
+          "duration" : 3387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get first Mars photos",
+        "uid" : "aab2eb83adfc09e5",
+        "parentUid" : "17aab2774fc80e17b7fc43e794b47ec3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290744079,
+          "stop" : 1628290747502,
+          "duration" : 3423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"1000\"", "10", "\"curiosity\"" ]
+      }, {
+        "name" : "Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.",
+        "uid" : "10661797b49fcc9b",
+        "parentUid" : "17aab2774fc80e17b7fc43e794b47ec3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628290752726,
+          "stop" : 1628290754370,
+          "duration" : 1644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get first Mars photos",
+        "uid" : "33e9353c86c1786",
+        "parentUid" : "17aab2774fc80e17b7fc43e794b47ec3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290747538,
+          "stop" : 1628290749317,
+          "duration" : 1779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"2015-05-30\"", "10", "\"curiosity\"" ]
+      } ],
+      "uid" : "17aab2774fc80e17b7fc43e794b47ec3"
+    }, {
+      "name" : "118168@LAPTOP-1CLD85NQ.main(1)",
+      "children" : [ {
+        "name" : "Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.",
+        "uid" : "cac233bab73c42c0",
+        "parentUid" : "d6b0a7798513880b45571cb0bbbfd259",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628290423499,
+          "stop" : 1628290425177,
+          "duration" : 1678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.",
+        "uid" : "c8673b74c018bf14",
+        "parentUid" : "d6b0a7798513880b45571cb0bbbfd259",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290420063,
+          "stop" : 1628290423486,
+          "duration" : 3423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get first Mars photos",
+        "uid" : "cead5d42ec60117",
+        "parentUid" : "d6b0a7798513880b45571cb0bbbfd259",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290418202,
+          "stop" : 1628290420047,
+          "duration" : 1845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"2015-05-30\"", "10", "\"curiosity\"" ]
+      }, {
+        "name" : "Get first Mars photos",
+        "uid" : "dc5ff7949f41f1dc",
+        "parentUid" : "d6b0a7798513880b45571cb0bbbfd259",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290414838,
+          "stop" : 1628290418157,
+          "duration" : 3319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"1000\"", "10", "\"curiosity\"" ]
+      } ],
+      "uid" : "d6b0a7798513880b45571cb0bbbfd259"
+    }, {
+      "name" : "108304@LAPTOP-1CLD85NQ.main(1)",
+      "children" : [ {
+        "name" : "Get first Mars photos",
+        "uid" : "7f0542f321048276",
+        "parentUid" : "4d19744b58113d835504305d44e21432",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290686728,
+          "stop" : 1628290690025,
+          "duration" : 3297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"1000\"", "10", "\"curiosity\"" ]
+      }, {
+        "name" : "Get first Mars photos",
+        "uid" : "5b86e96d463d0e5c",
+        "parentUid" : "4d19744b58113d835504305d44e21432",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290690069,
+          "stop" : 1628290691703,
+          "duration" : 1634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"2015-05-30\"", "10", "\"curiosity\"" ]
+      }, {
+        "name" : "Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.",
+        "uid" : "94c17dfeacb0b76d",
+        "parentUid" : "4d19744b58113d835504305d44e21432",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628290695223,
+          "stop" : 1628290696903,
+          "duration" : 1680
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.",
+        "uid" : "677c3a5f05d29760",
+        "parentUid" : "4d19744b58113d835504305d44e21432",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290691720,
+          "stop" : 1628290695210,
+          "duration" : 3490
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d19744b58113d835504305d44e21432"
+    }, {
+      "name" : "101224@LAPTOP-1CLD85NQ.main(1)",
+      "children" : [ {
+        "name" : "Get first Mars photos",
+        "uid" : "3512b5a238f5cb04",
+        "parentUid" : "5305033088182f794f25ae676fb68b84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290608038,
+          "stop" : 1628290609771,
+          "duration" : 1733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"2015-05-30\"", "10", "\"curiosity\"" ]
+      }, {
+        "name" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.",
+        "uid" : "2d9b8c5911e9d5e0",
+        "parentUid" : "5305033088182f794f25ae676fb68b84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290609785,
+          "stop" : 1628290613143,
+          "duration" : 3358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.",
+        "uid" : "5f69f56ddbac71f2",
+        "parentUid" : "5305033088182f794f25ae676fb68b84",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628290613154,
+          "stop" : 1628290614645,
+          "duration" : 1491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get first Mars photos",
+        "uid" : "ef0038d15479dc4",
+        "parentUid" : "5305033088182f794f25ae676fb68b84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628290604622,
+          "stop" : 1628290608000,
+          "duration" : 3378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"1000\"", "10", "\"curiosity\"" ]
+      } ],
+      "uid" : "5305033088182f794f25ae676fb68b84"
+    } ],
+    "uid" : "4af1905a5b8de9fff3f685cd2e514448"
+  } ],
   "name" : "timeline"
 }

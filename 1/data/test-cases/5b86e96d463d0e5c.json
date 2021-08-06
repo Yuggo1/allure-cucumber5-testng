@@ -1,0 +1,124 @@
+{
+  "uid" : "5b86e96d463d0e5c",
+  "name" : "Get first Mars photos",
+  "fullName" : "Nasa Rover Mars Photos Api: Get first Mars photos",
+  "historyId" : "efca8c70285783a58571f070639e8bdc",
+  "time" : {
+    "start" : 1628290690069,
+    "stop" : 1628290691703,
+    "duration" : 1634
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "core.Setup.contextSetup()",
+    "time" : {
+      "start" : 1628290690069,
+      "stop" : 1628290690070,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When  I request the 10 first photos made by \"curiosity\" on \"2015-05-30\"",
+      "time" : {
+        "start" : 1628290690070,
+        "stop" : 1628290691702,
+        "duration" : 1632
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should get the 10 first photos made by \"curiosity\" on \"2015-05-30\"",
+      "time" : {
+        "start" : 1628290691702,
+        "stop" : 1628290691703,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-1CLD85NQ"
+  }, {
+    "name" : "thread",
+    "value" : "108304@LAPTOP-1CLD85NQ.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "story",
+    "value" : "Get first Mars photos"
+  }, {
+    "name" : "suite",
+    "value" : "Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "testClass",
+    "value" : "Get first Mars photos"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/yuggo/IdeaProjects/allure-cucumber5-testng/src/test/resources/features/nasa-api.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.nasa-api_feature.Nasa Rover Mars Photos Api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "date",
+    "value" : "\"2015-05-30\""
+  }, {
+    "name" : "numOfPics",
+    "value" : "10"
+  }, {
+    "name" : "rover",
+    "value" : "\"curiosity\""
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b86e96d463d0e5c.json",
+  "parameterValues" : [ "\"2015-05-30\"", "10", "\"curiosity\"" ]
+}

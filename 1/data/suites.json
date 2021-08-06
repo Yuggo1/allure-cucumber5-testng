@@ -1,5 +1,61 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Nasa Rover Mars Photos Api",
+    "children" : [ {
+      "name" : "Get first Mars photos",
+      "uid" : "aab2eb83adfc09e5",
+      "parentUid" : "1499e0e80118b9de791f54e5f3194a9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628290744079,
+        "stop" : 1628290747502,
+        "duration" : 3423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "\"1000\"", "10", "\"curiosity\"" ]
+    }, {
+      "name" : "Get first Mars photos",
+      "uid" : "33e9353c86c1786",
+      "parentUid" : "1499e0e80118b9de791f54e5f3194a9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628290747538,
+        "stop" : 1628290749317,
+        "duration" : 1779
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "\"2015-05-30\"", "10", "\"curiosity\"" ]
+    }, {
+      "name" : "Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.",
+      "uid" : "3b6c6465c9adeeb7",
+      "parentUid" : "1499e0e80118b9de791f54e5f3194a9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628290749328,
+        "stop" : 1628290752715,
+        "duration" : 3387
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate that the amounts of pictures that each \"Curiosity\" camera took on 1000 Mars sol is not greater than 10 times the amount taken by other cameras on the same date.",
+      "uid" : "10661797b49fcc9b",
+      "parentUid" : "1499e0e80118b9de791f54e5f3194a9a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628290752726,
+        "stop" : 1628290754370,
+        "duration" : 1644
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1499e0e80118b9de791f54e5f3194a9a"
+  } ],
   "name" : "suites"
 }

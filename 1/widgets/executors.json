@@ -1,1 +1,10 @@
-[ ]
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Yuggo1.github.io/allure-cucumber5-testng",
+  "buildOrder" : 1,
+  "buildName" : "GitHub Actions Run #1106679633",
+  "buildUrl" : "https://github.com/Yuggo1/allure-cucumber5-testng/actions/runs/1106679633",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Yuggo1.github.io/allure-cucumber5-testng/1/"
+} ]

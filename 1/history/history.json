@@ -1,1 +1,83 @@
-{ }
+{
+  "efca8c70285783a58571f070639e8bdc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33e9353c86c1786",
+      "reportUrl" : "https://Yuggo1.github.io/allure-cucumber5-testng/1//#testresult/33e9353c86c1786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628290747538,
+        "stop" : 1628290749317,
+        "duration" : 1779
+      }
+    } ]
+  },
+  "8bfb4905f33d804c0d31e003cac109e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b6c6465c9adeeb7",
+      "reportUrl" : "https://Yuggo1.github.io/allure-cucumber5-testng/1//#testresult/3b6c6465c9adeeb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628290749328,
+        "stop" : 1628290752715,
+        "duration" : 3387
+      }
+    } ]
+  },
+  "38887bc9b1589266091d02f02a751eb6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10661797b49fcc9b",
+      "reportUrl" : "https://Yuggo1.github.io/allure-cucumber5-testng/1//#testresult/10661797b49fcc9b",
+      "status" : "failed",
+      "statusDetails" : "\r\nThe camera MAST fired more than ten times than RHAZ\r\nThe camera MAST fired more than ten times than NAVCAM\r\nThe camera MAST fired more than ten times than FHAZ\r\nThe camera MAST fired more than ten times than CHEMCAM",
+      "time" : {
+        "start" : 1628290752726,
+        "stop" : 1628290754370,
+        "duration" : 1644
+      }
+    } ]
+  },
+  "52cdd473ef38a8a37b087f4fe912da98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aab2eb83adfc09e5",
+      "reportUrl" : "https://Yuggo1.github.io/allure-cucumber5-testng/1//#testresult/aab2eb83adfc09e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628290744079,
+        "stop" : 1628290747502,
+        "duration" : 3423
+      }
+    } ]
+  }
+}
